@@ -14,10 +14,20 @@
   "author": "Antonio Ayala",
   "license": "ISC",
   "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2",
     "express": "^4.18.1",
     "react": "^18.1.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.16"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonioclimbs/First-Solo-Project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/antonioclimbs/First-Solo-Project/issues"
+  },
+  "homepage": "https://github.com/antonioclimbs/First-Solo-Project#readme"
 }

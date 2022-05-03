@@ -1,9 +1,19 @@
-import React from 'react'
+import React, { component } from 'react'
 import { render } from 'react-dom'
 import { Provider } from 'react-redux'
-import App from './client/App.jsx'
 
 console.log('app is here')
-render(
-  <h1>Hello World from App</h1>
-)
+class App extends React {
+  constructor(props) {
+    super(props);
+  }
+
+  render() {
+    return (
+      <h1>App</h1>
+    )
+  }
+  
+}
+
+export default App;
