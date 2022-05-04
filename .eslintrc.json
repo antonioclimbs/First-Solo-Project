@@ -1,0 +1,49 @@
+{
+  "root": true,
+  "ignorePatterns": [
+    "**/test",
+    "**/__tests__"
+  ],
+  "env": {
+    "node": true,
+    "es2021": true,
+    "browser": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "prettier"
+  ],
+  "plugins": [
+    "prettier"
+  ],
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "rules": {
+    "indent": [
+      "warn",
+      2
+    ],
+    "no-unused-vars": [
+      "off",
+      {
+        "vars": "local"
+      }
+    ],
+    "prefer-const": "warn",
+    "quotes": [
+      "warn",
+      "single"
+    ],
+    "space-infix-ops": "warn",
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    ]
+  }
+}
