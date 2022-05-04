@@ -1,6 +1,9 @@
 import * as types from '../constants/actionTypes';
 
-export const addPoint = marketId => ({
+export const addPoint = () => ({
   type: types.ADD_POINT,
-  payload: marketId,
+});
+
+export const sellPoint = () => ({
+  type: types.ADD_POINT,
 });
