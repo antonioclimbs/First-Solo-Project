@@ -1,5 +1,6 @@
 import React, { component } from 'react'
 import { render } from 'react-dom'
+import MainContainer from './containers/MainContainer'
 
 console.log('app is here')
 
@@ -10,7 +11,9 @@ class App extends React.Component {
 
   render() {
     return (
-      <h1>Rendering App</h1>
+      <div>
+        <MainContainer />
+      </div>
     )
   }
 
