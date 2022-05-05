@@ -2,7 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import * as actions from '../actions/actions';
 
-mapDispatchToProps = (dispatch) => ({
+const mapDispatchToProps = (dispatch) => ({
   addPoint: () => dispatch(actions.addPoint()),
   addPoint: () => dispatch(actions.addPoint())
 })
@@ -20,4 +20,4 @@ const Button = props => {
   </div>
 }
 
-export default connect(null, mapDispatchToProps)(Market);
+export default connect(null, mapDispatchToProps)(Button);

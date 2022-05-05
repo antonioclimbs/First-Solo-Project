@@ -14,3 +14,5 @@ class MainContainer extends React.Component {
     </div>
   }
 }
+
+export default MainContainer;
