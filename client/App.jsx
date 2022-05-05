@@ -1,6 +1,6 @@
 import React, { component } from 'react'
 import { render } from 'react-dom'
-import MainContainer from './containers/MainContainer'
+// import MainContainer from './containers/MainContainer'
 
 console.log('app is here')
 
@@ -12,7 +12,8 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <MainContainer />
+        <h1>App Header</h1>
+        {/* <MainContainer /> */}
       </div>
     )
   }

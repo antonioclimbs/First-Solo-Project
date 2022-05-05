@@ -4,7 +4,7 @@ const appDir = path.resolve(__dirname, './client');
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
-  mode: process.env.NODE_ENV,
+  mode: process.env.NODE_ENV || 'development',
   entry: {
     main: appDir + '/index.js'
   },

@@ -12,7 +12,7 @@ const Button = props => {
     <button><img src="./images/Snek_Michael"
       alt="buttonImage"
       onClick={(e) => {
-        e.preventDefault;
+        // e.preventDefault;
         console.log(e);
         props.addPoint();
       }} /></button>

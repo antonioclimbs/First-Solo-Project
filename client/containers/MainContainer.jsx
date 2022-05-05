@@ -8,5 +8,9 @@ class MainContainer extends React.Component {
     super(props);
   }
 
-
+  render() {
+    <div className='mainContainer'>
+      <Button />
+    </div>
+  }
 }
