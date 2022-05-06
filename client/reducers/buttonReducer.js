@@ -7,15 +7,21 @@ const initialState = {
   additionalPoints: 0
 };
 
-const marketsReducer = (state = initialState, action) => {
-  let marketList;
-  let totalCards;
+const buttonReducer = (state = initialState, action) => {
+  let newTotalPoints;
 
   switch (action.type) {
     case types.ADD_POINT: {
-
+      newTotalPoints = state.totalPoints + 1;
+      return {
+        ...state,
+        totalPoints: newTotalPoints
+      }
+    }
+    default: {
+      return state;
     }
   }
 }
 
-export default marketsReducer;
+export default buttonReducer;
