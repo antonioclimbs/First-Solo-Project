@@ -3,7 +3,7 @@ import { render } from 'react-dom'
 // import MainContainer from './containers/MainContainer'
 import Button from './components/Button'
 
-console.log('app is here')
+console.log('getting to app')
 
 class App extends React.Component {
   // constructor(props) {
